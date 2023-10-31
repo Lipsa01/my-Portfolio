@@ -1,0 +1,9 @@
+.Headerrr{
+    position: fixed;
+    height: 60px;
+    left: 0px;
+    right: 0px;
+    background-color: rgb(26, 13, 26);
+    margin-bottom: 10px;
+    z-index: 50;
+}

@@ -1,0 +1,98 @@
+.contact-div{
+    margin-top: 90px;
+    padding-bottom: 50px;
+}
+.get-in-touch{
+    text-align: center;
+    color: purple;
+    font-size: 23px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+}
+.contact-me{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 14px;
+    margin-bottom: 40px;
+}
+
+.contact-main{
+    display: grid;
+    margin-left: 150px;
+    margin-right: 150px;
+    /*background-color: brown;*/
+    grid-template-columns: 470px 1fr;
+}
+.info{
+    /*background-color: lightskyblue;*/
+    margin-right: 20px;
+
+}
+.block-4{
+    margin-bottom: 20px;
+    display: flex;
+    margin-top: 0px;
+}
+.contact-logo{
+    /*background-color: brown;*/
+}
+.contact-details{
+    margin-top: 0px;
+    margin-left: 10px;
+}
+.place{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.value{
+    margin-top: 4px;
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.contact-right form{
+    width: 100%;
+    
+}
+form input{
+    width: 100%;
+    border: 10px;
+    background-color: rgb(20,19,20);
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 15px;
+    outline: none;
+}
+.your-name{
+    margin-bottom: 35px;
+    height: 20px;
+    margin-left: 0px;
+    
+}
+.your-email{
+    height: 20px;
+    margin-bottom: 35px;
+}
+.message{
+    height: 150px;
+    margin-bottom: 20px;
+}
+.submit-button{
+    color: purple;
+    height: 35px;
+    width: 100px;
+    border-color: purple;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-width: 2px;
+    background-color:rgb(14,13,13);
+    cursor: pointer;
+}
+.submit-button:hover{
+    background-color: purple;
+    color: white;
+}

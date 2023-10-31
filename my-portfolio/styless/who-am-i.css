@@ -1,0 +1,32 @@
+/*===============who am i=========================*/
+.main_div_3{
+    display:  flex;
+    flex-direction: row;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 110px;
+
+}
+.zaged_photo{ 
+    flex: 1 ;
+    background-color: pink;
+}
+.brief{
+    flex: 2;
+    color: white;
+    margin-top: 0px;
+}
+.photo_2{
+    width: 400px;
+    height: 500px;
+}
+.who_am{
+    margin-top: 0px;
+    font-size: 23px;
+    color: purple;
+    margin-bottom: 0px;
+}
+.description{
+    margin-top: 18px;
+    font-size: 30px;
+}

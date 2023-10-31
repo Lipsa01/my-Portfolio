@@ -1,0 +1,36 @@
+.portfolio-div{
+    margin-top: 10px;
+    background-color: rgb(20, 19, 20);
+    padding-bottom: 50px;
+}
+.my-port{
+    text-align: center;
+    color: purple;
+    font-size: 23px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+}
+.recent-works{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 14px;
+    margin-bottom: 40px;
+}
+.portfolio-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 150px;
+    margin-right: 150px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.block-3{
+    background-color: rgb(26, 27, 26);
+    height: 180px;
+     
+}
+.portfolio-img{
+    width: 300px;
+    height: 180px;
+}

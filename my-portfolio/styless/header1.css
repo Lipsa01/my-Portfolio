@@ -1,0 +1,46 @@
+.main_div{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px; 
+    
+}
+.div_1{
+    flex: 1;
+}
+.my-name{
+    font-size: 35px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-left: 90px;
+    color: purple;
+}
+
+
+.div_3{
+    /* flex: 1; */
+    margin-right: 50px;
+    margin-bottom: 0px;
+    text-align: right;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    word-spacing: 25px;
+    
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 18px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+.nav_buttons:hover{
+    color: purple;
+    cursor: pointer;
+}
+.nav_home{
+    color: purple;
+}

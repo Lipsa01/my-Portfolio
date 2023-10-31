@@ -1,0 +1,63 @@
+.talent-div{
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.my-talent{
+    text-align: center;
+    color: purple;
+    font-size: 23px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+}
+.Professional-skills{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 14px;
+    margin-bottom: 40px;
+}
+.talent-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 150px;
+    margin-right: 150px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.block-2{
+    height: 150px;
+    border: 4px;
+    transform: 1s ease;
+}
+
+.block-2:hover{
+    transform: scale(1.1);
+    /* background-color: rgb(48, 30, 48); */
+}
+
+.lang-percen{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.lang{
+    color: white;
+    font-size: 23px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+}
+.percen{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+}
+.talent-description{
+    color: white;
+    margin-top: 0px;
+    margin-left:15px ;
+    line-height: 20px;
+    font-size: 14px;
+}

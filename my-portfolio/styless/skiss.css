@@ -1,0 +1,38 @@
+.tab-titles{
+    display: flex;
+    margin: 20px0 40px;
+}
+.tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+}
+.tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color:purple ;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+
+}
+.tab-links.active-links::after{
+    width: 50%;
+}
+.tab-contents ul li{
+    list-style: none;
+    margin: 10px 0px ;
+}
+.tab-contents ul li span{
+    color: purple;
+
+}
+.tab-contents{
+    display: none;
+}
+.tab-contents.active-tabs{
+    display: block;
+}

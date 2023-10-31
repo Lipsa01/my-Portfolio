@@ -1,0 +1,10 @@
+.copyright-div{
+    background-color: rgb(20,19,20);
+    width: 100%;
+    height: 70px;
+}
+.copyright-text{
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 30px;
+}
